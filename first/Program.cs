@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Principal;
 namespace first_project
 {
     internal class Program
@@ -25,7 +26,7 @@ namespace first_project
             b=c;
             Console.WriteLine("after swapping");
             Console.WriteLine("Number A is"+m);
-            Console.WriteLine("Number A is"+b);*/
+            Console.WriteLine("Number A is"+b);
 
             Console.WriteLine("Enter The First number");
             int  a=Convert.ToInt32(Console.ReadLine());
@@ -39,6 +40,21 @@ namespace first_project
             Console.WriteLine("Multiplication is"+d);
             Console.WriteLine("Subtraction"+e);
             Console.WriteLine("Addition Is"+c);
+            int n;
+            Console.WriteLine("Enter The size of array");
+            n=Convert.ToInt32(Console.ReadLine());
+            int[] a=new int[n]; 
+            Console.WriteLine("Enter the array");
+            for (int i = 0; i < n; i++)
+            {
+                a[i]=Convert.ToInt32(Console.ReadLine());
+            }
+            Array.Sort(a);
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write(" "+a[i]);
+            }*/
 
 
         }
