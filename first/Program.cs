@@ -56,7 +56,9 @@ namespace first_project
                 Console.Write(" "+a[i]);
             }*/
 
-
+            double d=1000D/12.32D;
+            Console.WriteLine(d);
+            Console.WriteLine(string.Format("{0:0.00}",d));
         }
     }
 }
