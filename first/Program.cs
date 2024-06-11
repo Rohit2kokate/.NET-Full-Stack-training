@@ -83,14 +83,22 @@ namespace first_project
                 string input = Console.ReadLine();
                 double number = double.Parse(input);
                 double square = R.Square(number);
-                Console.WriteLine($"The square of {number} is {square}");*/
+                Console.WriteLine($"The square of {number} is {square}");
                 int val=20;
                 Object obj=val;
-
                 val=2000;
-
                 System.Console.WriteLine($"Value Type variable is {val}");
-                System.Console.WriteLine($"Object type value is{obj}");
+                System.Console.WriteLine($"Object type value is{obj}");*/
+                int num=20;
+                double square = R.Square(num);
+                System.Console.WriteLine($"value type object after boxing  --{square}");
+                Object obj=R.Obj(num);
+                System.Console.WriteLine($"Oject type after boxing  --{obj}");
+                
+                double unbox=(double)obj;
+                
+                System.Console.WriteLine($"Oject type --{obj}");
+                System.Console.WriteLine($"value type object after unboxing  --{unbox}");
 
 
         }
