@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\.net\secound\bin\Debug\net8.0\secound.exe
+C:\Users\HP\Documents\.net\secound\bin\Debug\net8.0\secound.deps.json
+C:\Users\HP\Documents\.net\secound\bin\Debug\net8.0\secound.runtimeconfig.json
+C:\Users\HP\Documents\.net\secound\bin\Debug\net8.0\secound.dll
+C:\Users\HP\Documents\.net\secound\bin\Debug\net8.0\secound.pdb
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\secound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\secound.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\secound.AssemblyInfo.cs
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\secound.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\secound.sourcelink.json
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\secound.dll
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\refint\secound.dll
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\secound.pdb
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\secound.genruntimeconfig.cache
+C:\Users\HP\Documents\.net\secound\obj\Debug\net8.0\ref\secound.dll
