@@ -1,4 +1,5 @@
 using System.Threading;
+using System;
 namespace first_project
 {
     public static class P1{

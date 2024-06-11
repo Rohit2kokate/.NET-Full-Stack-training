@@ -103,8 +103,10 @@ namespace first_project
                 System.Console.WriteLine(a);
 
                 ----------------------------------------------------------------------------*/
-                String a=P1.man();
+                //String a=P1.man();
                 //System.Console.WriteLine(a);
+
+           
         }
     }
 }
