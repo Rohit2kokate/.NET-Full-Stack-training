@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 namespace first_project
 {
     internal class Program
@@ -102,11 +103,47 @@ namespace first_project
                 int a=P1.man();
                 System.Console.WriteLine(a);
 
-                ----------------------------------------------------------------------------*/
+                ----------------------------------------------------------------------------
                 //String a=P1.man();
                 //System.Console.WriteLine(a);
+                System.Console.WriteLine("enter the length");
+                string len=Console.ReadLine();
+                int n=int.Parse(len);
+                
+                //int pattern=Pattern.right(n);
+                //System.Console.WriteLine("\n");
+               // int le=Pattern.invert(n);
+               // Pattern.left(n);
 
-           
+               System.Console.WriteLine("enter the breath");
+               string bre=Console.ReadLine();
+               int breth=int.Parse(bre);
+               System.Console.WriteLine("area of rectangle"+Pattern.rectangle(n,breth));
+
+                System.Console.WriteLine("enter the peimeter");
+                string m=Console.ReadLine();
+                int p=int.Parse(m);
+
+                System.Console.WriteLine("enter the aptoloan");
+                string nm=Console.ReadLine();
+                int a=int.Parse(nm);
+
+              System.Console.WriteLine("area of Polygoan"+Pattern.polygoan(a,p));
+
+              DateTime current= DateTime.Now;
+              Console.WriteLine("Current date and time: " + current);*/
+
+              string sa="rohit kokate";
+              for (int i = 0; i < sa.Length; i++)
+              {
+                if(sa[i].Equals('k')){
+                    System.Console.WriteLine("Present");
+                }
+                else{
+                    System.Console.WriteLine("absent");
+                }
+              }
+
         }
     }
 }
