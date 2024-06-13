@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\.net\fourth\bin\Debug\net8.0\fourth.exe
+C:\Users\HP\Documents\.net\fourth\bin\Debug\net8.0\fourth.deps.json
+C:\Users\HP\Documents\.net\fourth\bin\Debug\net8.0\fourth.runtimeconfig.json
+C:\Users\HP\Documents\.net\fourth\bin\Debug\net8.0\fourth.dll
+C:\Users\HP\Documents\.net\fourth\bin\Debug\net8.0\fourth.pdb
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\fourth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\fourth.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\fourth.AssemblyInfo.cs
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\fourth.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\fourth.sourcelink.json
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\fourth.dll
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\refint\fourth.dll
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\fourth.pdb
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\fourth.genruntimeconfig.cache
+C:\Users\HP\Documents\.net\fourth\obj\Debug\net8.0\ref\fourth.dll
