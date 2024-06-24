@@ -18,7 +18,8 @@ namespace fifth_Project{
             {
                 Console.Write(arr[i]);
             }*/
-            Sum.sum();
+            //Sum.sum();
+            jaggedarray.jagged();
             
         }
     }

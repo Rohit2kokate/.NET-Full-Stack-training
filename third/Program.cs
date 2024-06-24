@@ -1,9 +1,6 @@
 ﻿using System;
 namespace third_project{
-
-    using System;
-
-struct Student
+/*struct Student
 {
     public int SrNo;
     public string Name;
@@ -26,11 +23,11 @@ struct Student
     {
         Console.WriteLine($"SrNo: {SrNo}, Name: {Name}, Branch: {Branch}, Stream: {Stream}, College: {College}");
     }
-}
+}*/
 
     internal class Program{
         public static void Main(string[] args){
-        Console.Write("Enter the number of students: ");
+        /*Console.Write("Enter the number of students: ");
         int numStudents = int.Parse(Console.ReadLine());
 
         // Create an array of Student structs
@@ -65,6 +62,40 @@ struct Student
         {
             student.Display();
         }
+            decimal balance = 1000m; // Initial balance
+            bool running = true;
+
+            while (running)
+            {
+                Console.WriteLine("ATM Menu:");
+                Console.WriteLine("1. Check Balance");
+                Console.WriteLine("2. Deposit Cash");
+                Console.WriteLine("3. Withdraw Cash");
+                Console.WriteLine("4. Quit");
+                Console.Write("Choose an option: ");
+
+                string choice = Console.ReadLine();
+
+                switch (choice)
+                {
+                    case "1":
+                        ATM.CheckBalance(balance);
+                        break;
+                    case "2":
+                        balance = ATM.DepositCash(balance);
+                        break;
+                    case "3":
+                        balance = ATM.WithdrawCash(balance);
+                        break;
+                    case "4":
+                        running = false;
+                        Console.WriteLine("Thank you for using the ATM. Goodbye!");
+                        break;
+                    default:
+                        Console.WriteLine("Invalid option. Please try again.");
+                        break;
+                }
+            }*/
         }
     }
 }

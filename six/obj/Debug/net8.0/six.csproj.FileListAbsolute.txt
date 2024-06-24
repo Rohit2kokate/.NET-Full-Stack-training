@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\six.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\six.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\six.AssemblyInfo.cs
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\six.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\six.sourcelink.json
+C:\Users\HP\Documents\.net\six\bin\Debug\net8.0\six.exe
+C:\Users\HP\Documents\.net\six\bin\Debug\net8.0\six.deps.json
+C:\Users\HP\Documents\.net\six\bin\Debug\net8.0\six.runtimeconfig.json
+C:\Users\HP\Documents\.net\six\bin\Debug\net8.0\six.dll
+C:\Users\HP\Documents\.net\six\bin\Debug\net8.0\six.pdb
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\six.dll
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\refint\six.dll
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\six.pdb
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\six.genruntimeconfig.cache
+C:\Users\HP\Documents\.net\six\obj\Debug\net8.0\ref\six.dll

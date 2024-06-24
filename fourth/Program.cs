@@ -10,6 +10,7 @@ namespace RestaurantBilling
             // Hotel Details
             string hotelName = "Grand Restaurant";
             double gstRate = 0.18; // 18% GST
+            int m=0;
 
             // Menu Items
             Dictionary<int, MenuItem> menu = new Dictionary<int, MenuItem>
@@ -22,7 +23,7 @@ namespace RestaurantBilling
 
             // Order List
             List<MenuItem> order = new List<MenuItem>();
-
+           
             while (true)
             {
                 Console.WriteLine("Restaurant Menu:");
@@ -33,6 +34,11 @@ namespace RestaurantBilling
 
                 Console.WriteLine("Enter the item number to add to your order, or '0' to finish and generate the bill:");
                 int itemNumber = int.Parse(Console.ReadLine());
+                int Quantity=0;
+                if(itemNumber!=0){
+                    System.Console.WriteLine("Enter The Quantity OF Product");
+                   Quantity=int.Parse(Console.ReadLine());
+                }
 
                 if (itemNumber == 0)
                     break;
@@ -46,14 +52,19 @@ namespace RestaurantBilling
                 {
                     Console.WriteLine("Invalid item number. Please try again.");
                 }
+                m=m+Quantity;
+
             }
 
-            GenerateBill(order, hotelName, gstRate);
+            GenerateBill(order, hotelName, gstRate,m);
         }
 
-        static void GenerateBill(List<MenuItem> order, string hotelName, double gstRate)
+        static void GenerateBill(List<MenuItem> order, string hotelName, double gstRate,double Quantit)
         {
             double subtotal = 0;
+            double qua=0;
+            qua=qua+Quantit;
+            
             Console.WriteLine("\n--------------------");
             Console.WriteLine(hotelName);
             Console.WriteLine($"Date: {DateTime.Now}");
@@ -67,11 +78,13 @@ namespace RestaurantBilling
 
             double gst = subtotal * gstRate;
             double total = subtotal + gst;
+            
 
             Console.WriteLine("--------------------");
             Console.WriteLine($"Subtotal: ${subtotal:F2}");
             Console.WriteLine($"GST (18%): ${gst:F2}");
             Console.WriteLine($"Total: ${total:F2}");
+            Console.WriteLine($"Quantity: ${qua:F2}");
             Console.WriteLine("--------------------");
             Console.WriteLine("Thank you for dining with us!");
         }

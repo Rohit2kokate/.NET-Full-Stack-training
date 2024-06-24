@@ -131,7 +131,7 @@ namespace first_project
               System.Console.WriteLine("area of Polygoan"+Pattern.polygoan(a,p));
 
               DateTime current= DateTime.Now;
-              Console.WriteLine("Current date and time: " + current);*/
+              Console.WriteLine("Current date and time: " + current);
 
               string sa="rohit kokate";
               for (int i = 0; i < sa.Length; i++)
@@ -142,7 +142,10 @@ namespace first_project
                 else{
                     System.Console.WriteLine("absent");
                 }
-              }
+                if(!string.IsNullOrEmpty(sa)){
+                    System.Console.WriteLine($"p-{i}");
+                }
+              }*/
 
         }
     }
