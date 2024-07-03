@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .timetable {
+            width: 60%;
+            background: white;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .timetable h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .lunch-break {
+            text-align: center;
+            font-weight: bold;
+            background-color: #fffff;
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="timetable">
+        <h2>Sanjivani Engineering College, Kopargaon</h2>
+        <h3>Time Table - Dot Net</h3>
+        <table>
+            <tr>
+                <th>Day/Time</th>
+                <th>9:30 AM - 1:00 pM</th>
+                <th>1:00 PM - 2:00 PM</th>
+                <th>2:00 PM - 5:15 PM</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Theory</td>
+                <td rowspan="6" class="lunch-break">Lunch Break</td>
+                <td>Practical</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Theory</td>
+                <td>Practical</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Theory</td>
+                <td>Practical</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>  
+                <td>Theory</td>
+                <td>Practical</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Theory</td>
+                <td>Practical</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>World Class</td>
+                <td>Dynamics & Viva</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
